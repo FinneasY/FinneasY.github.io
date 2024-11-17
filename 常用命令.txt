@@ -1,0 +1,9 @@
+
+
+#清除缓存并且预览
+hexo clean && hexo g && hexo s
+
+#推送到github
+git add .
+git commit -m "1117updata"
+git push origin main

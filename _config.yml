@@ -111,6 +111,15 @@ deploy:
   branch: main
   
 ####自己添加的
+kramed:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true
+
 markdown:
   render:
     html: true
