@@ -139,7 +139,7 @@ markdown:
     enable: true
     appId: TjtKS0Evn8nZqCcZ9QKXTKbJ-MdYXbMMI
     appKey: Uv9PQg6dIHCqoZ98CP6t9CUx
-    path: 'https://econfinny.com/artitalk/'
+    path:
     js: 
     option:
       serverURL: 'shuoshuo.econfinny.com'
