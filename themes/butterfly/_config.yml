@@ -200,7 +200,7 @@ toc:
 post_copyright:
   enable: true
   decode: false
-  author_href:
+  author_href: 
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
@@ -222,7 +222,7 @@ post_edit:
   enable: false
   # url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
-  url:
+  url: https://econfinny.com
 
 # Related Articles
 related_post:
