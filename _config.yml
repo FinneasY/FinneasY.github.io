@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: econ_Finneas
+title: Finneas's
 subtitle: '一个经济学小登的主页'
 description: 'When you know you know, you know ~'
 keywords: 经济学，健康经济，心理健康
@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://github.com/FinneasY
+url: https://FinneasY.github.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -107,6 +107,6 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: 'https://github.com/FinneasY/FinneasY.github.io.git'
-  branch: master
+  repo: ''
+  branch: main
   

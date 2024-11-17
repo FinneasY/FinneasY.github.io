@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="https://unpkg.com/gitalk@latest/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+<script src="https://priesttomb.github.io/js/md5.min.js"></script>
+<script type="text/javascript">
+    new Gitalk({
+        clientID: 'Ov23li9Mpa0uRVKoOif5',
+        clientSecret: '95521b36b266bda446b245a789f31e6b0d37ef6',
+        repo: 'FinneasY.github.io',
+        owner: 'FinneasY',
+        admin: 'FinneasY',
+        id: md5(location.pathname),
+        distractionFreeMode: true
+    }).render('gitalk-container')
+</script>

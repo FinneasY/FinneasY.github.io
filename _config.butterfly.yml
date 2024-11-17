@@ -11,16 +11,23 @@
 
 nav:
   # Navigation bar logo image
-  logo:
+  logo: /img/lemon.png
   display_title: true
   # Whether to fix navigation bar
   fixed: false
 
 menu:
-  # Home: / || fas fa-home
-  # List||fas fa-list:
-  #   Music: /music/ || fas fa-music
-  #   Movie: /movies/ || fas fa-video
+  首页: / || fas fa-home
+  列表||fa fa-list:
+    标签: /tags/ || fas fa-tags
+    分类: /categories/ || fas fa-folder-open
+  清单||fa fa-reorder:
+    music: /music/ || fas fa-music
+    photos: /Gallery/ || fas fa-images
+    movies: /movies/ || fas fa-video
+  友链: /link/ || fas fa-link
+  关于: /about/ || fas fa-heart
+
 
 # --------------------------------------
 # Code Blocks Settings
@@ -29,7 +36,7 @@ menu:
 code_blocks:
   # Code block theme: darker / pale night / light / ocean / false
   theme: light
-  macStyle: false
+  macStyle: true
   # Code block height limit (unit: px)
   height_limit: false
   word_wrap: false
@@ -38,15 +45,15 @@ code_blocks:
   copy: true
   language: true
   # true: shrink the code blocks | false: expand the code blocks | none: expand code blocks and hide the button
-  shrink: false
+  shrink: true
   fullpage: false
 
 # Social media links
 # Formal:
 #   icon: link || the description || color
 social:
-  # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
+  fab fa-github: https://github.com/FinneasY || Github || '#EAECCC'
+  fas fa-envelope: mailto:finneasyuan@outlook.com || Email || '#EAECCC'
 
 # --------------------------------------
 # Image Settings
@@ -55,7 +62,7 @@ social:
 favicon: /img/favicon.png
 
 avatar:
-  img: /img/butterfly-icon.png
+  img: /img/IMG_0005.JPG
   effect: false
 
 # Disable all banner images
@@ -65,7 +72,7 @@ disable_top_img: false
 default_top_img:
 
 # The banner image of index page
-index_img:
+index_img: https://upload.wikimedia.org/wikipedia/commons/6/63/Vincent_van_Gogh_-_Wheat_Field_with_Cypresses_-_Google_Art_Project.jpg
 
 # The banner image of archive page
 archive_img:
@@ -87,7 +94,7 @@ category_img:
 category_per_img:
 
 # The background image of footer
-footer_img: false
+footer_img: https://upload.wikimedia.org/wikipedia/commons/6/63/Vincent_van_Gogh_-_Wheat_Field_with_Cypresses_-_Google_Art_Project.jpg
 
 # Website Background
 # Can set it to color or image url
@@ -141,13 +148,13 @@ post_meta:
 # The top_img settings of home page
 # default: top img - full screen, site info - middle
 # The position of site info, eg: 300px/300em/300rem/10%
-index_site_info_top:
+index_site_info_top: 
 # The height of top_img, eg: 300px/300em/300rem
-index_top_img_height:
+index_top_img_height: 360px
 
 # The subtitle on homepage
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect
   effect: true
   # Customize typed.js
@@ -172,7 +179,7 @@ subtitle:
 # 5: Info displayed on the cover
 # 6: Masonry layout - Cover on top, info on the bottom
 # 7: Masonry layout - Info displayed on the cover
-index_layout: 3
+index_layout: 2
 
 # Display the article introduction on homepage
 # 1: description
@@ -190,28 +197,28 @@ index_post_content:
 
 toc:
   post: true
-  page: false
+  page: true
   number: true
   expand: false
   # Only for post
   style_simple: false
-  scroll_percent: true
+  scroll_percent: false
 
 post_copyright:
   enable: true
   decode: false
-  author_href:
+  author_href: www.econfinny.com
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 # Sponsor/reward
 reward:
-  enable: false
+  enable: true
   text:
   QR_code:
-    # - img: /img/wechat.jpg
-    #   link:
-    #   text: wechat
+    - img: /img/Wechat.JPG
+      link:
+      text: wechat
     # - img: /img/alipay.jpg
     #   link:
     #   text: alipay
@@ -228,7 +235,7 @@ post_edit:
 related_post:
   enable: true
   # Number of posts displayed
-  limit: 6
+  limit: 3
   # Choose: created / updated
   date_type: created
 
@@ -236,7 +243,7 @@ related_post:
 # 1: The 'next post' will link to old post
 # 2: The 'next post' will link to new post
 # false: disable pagination
-post_pagination: 1
+post_pagination: false
 
 # Displays outdated notice for a post
 noticeOutdate:
@@ -256,8 +263,8 @@ noticeOutdate:
 footer:
   owner:
     enable: true
-    since: 2019
-  custom_text:
+    since: 2024
+  custom_text: Hi, welcome to my blog!
   # Copyright of theme and framework
   copyright: true
 
@@ -272,33 +279,33 @@ aside:
   button: true
   mobile: true
   # Position: left / right
-  position: right
+  position: left
   display:
     archive: true
     tag: true
     category: true
   card_author:
     enable: true
-    description:
+    description: 北京大学(民族 version)
     button:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/FinneasY
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 本人开始折腾个人网站了！
   card_recent_post:
     enable: true
     # If set 0 will show all
-    limit: 5
+    limit: 3
     # Sort: date / updated
     sort: date
     sort_order:
   card_newest_comments:
-    enable: false
+    enable: true
     sort_order:
-    limit: 6
+    limit: 3
     # Unit: mins, save data to localStorage
     storage: 10
     avatar: true
@@ -312,7 +319,7 @@ aside:
   card_tags:
     enable: true
     # If set 0 will show all
-    limit: 40
+    limit: 8
     color: false
     # Order of tags, random/name/length
     orderby: random
@@ -381,7 +388,7 @@ darkmode:
   # autoChangeMode: 1  Following System Settings, if the system doesn't support dark mode, it will switch dark mode between 6 pm to 6 am
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
   # autoChangeMode: false
-  autoChangeMode: false
+  autoChangeMode: 1
   # Set the light mode time. The value is between 0 and 24. If not set, the default value is 6 and 18
   start:
   end:
@@ -416,11 +423,11 @@ copy:
   # Add the copyright information after copied content
   copyright:
     enable: false
-    limit_count: 150
+    limit_count: 50
 
 # Need to install the hexo-wordcount plugin
 wordcount:
-  enable: false
+  enable: true
   # Display the word count of the article in post meta
   post_wordcount: true
   # Display the time to read the article in post meta
@@ -429,7 +436,7 @@ wordcount:
   total_wordcount: true
 
 # Busuanzi count for PV / UV in site
-busuanzi:
+busuanzi: 
   site_uv: true
   site_pv: true
   page_pv: true
@@ -465,8 +472,8 @@ math:
 search:
   # Choose: algolia_search / local_search / docsearch
   # leave it empty if you don't need search
-  use:
-  placeholder:
+  use: 
+  placeholder: 
 
   # Algolia Search
   algolia_search:
@@ -514,19 +521,19 @@ share:
 # Comments System
 # --------------------------------------
 
-comments:
+comments: 
   # Up to two comments system, the first will be shown as default
   # Leave it empty if you don't need comments
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   # Format of two comments system : Disqus,Waline
-  use:
+  use: Twikoo,Gitalk
   # Display the comment name next to the button
   text: true
   # Lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
   lazyload: false
   # Display comment count in post's top_img
-  count: false
+  count: true
   # Display comment count in Home Page
   card_post_count: false
 
@@ -552,11 +559,11 @@ livere:
 # Gitalk
 # https://github.com/gitalk/gitalk
 gitalk:
-  client_id:
-  client_secret:
-  repo:
-  owner:
-  admin:
+  client_id: Ov23li9Mpa0uRVKoOif5
+  client_secret: 695521b36b266bda446b245a789f31e6b0d37ef6
+  repo: FinneasY.github.io
+  owner: FinneasY
+  admin: FinneasY
   option:
 
 # Valine
@@ -1061,7 +1068,7 @@ CDN:
     # artalk_css:
     # artalk_js:
     # blueimp_md5:
-    # busuanzi:
+    busuanzi: 
     # canvas_fluttering_ribbon:
     # canvas_nest:
     # canvas_ribbon:
