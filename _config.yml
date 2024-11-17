@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
+title: econ_Finneas
+subtitle: '一个经济学小登的主页'
+description: 'When you know you know, you know ~'
+keywords: 经济学，健康经济，心理健康
+author: Finneas
+language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://github.com/FinneasY
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -94,11 +94,19 @@ exclude:
 ignore:
 
 # Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
-theme: butterfly_copy
+Plugins: 
+  - hexo-browsersync
+hexo-browsersync:
+  ghostMode: true
+  notify: true
+  open: true
+
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repo: 'https://github.com/FinneasY/FinneasY.github.io.git'
+  branch: master
+  
