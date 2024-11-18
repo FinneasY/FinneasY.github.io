@@ -132,6 +132,7 @@ markdown:
   anchors:
     level: 1
     collisionSuffix: ''
+  
 
  # Artitalk
   # see https://artitalk.js.org/

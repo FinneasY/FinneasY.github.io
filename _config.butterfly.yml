@@ -36,10 +36,10 @@ menu:
 
 code_blocks:
   # Code block theme: darker / pale night / light / ocean / false
-  theme: light
-  macStyle: true
+  theme: pale night
+  macStyle: false
   # Code block height limit (unit: px)
-  height_limit: false
+  height_limit: 200
   word_wrap: false
 
   # Toolbar
@@ -70,10 +70,10 @@ avatar:
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img: /img/vangogh.jpg
+default_top_img: https://img.picui.cn/free/2024/11/18/673ace3eb6d99.jpeg
 
 # The banner image of index page
-index_img: /img/vangogh.jpg
+index_img: https://img.picui.cn/free/2024/11/18/673ace3eb6d99.jpeg
 
 # The banner image of archive page
 archive_img:
@@ -95,7 +95,7 @@ category_img:
 category_per_img:
 
 # The background image of footer
-footer_img: /img/vangogh.jpg
+footer_img: https://img.picui.cn/free/2024/11/18/673ace3eb6d99.jpeg
 
 # Website Background
 # Can set it to color or image url
@@ -1043,7 +1043,6 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-    # - <script src="xxxx"></script>
 
 # CDN Settings
 # Don't modify the following settings unless you know how they work
@@ -1119,3 +1118,41 @@ CDN:
     # valine:
     # waline_css:
     # waline_js:
+
+# footer_beautify
+# 页脚计时器：[Native JS Timer](https://akilar.top/posts/b941af/)
+# 页脚徽标：[Add Github Badge](https://akilar.top/posts/e87ad7f8/)
+footer_beautify:
+  enable:
+    timer: true # 计时器开关
+    bdage: false # 徽标开关
+  priority: 5 #过滤器优先权
+  enable_page: all # 应用页面
+  exclude: #屏蔽页面
+    # - /posts/
+    # - /about/
+  layout: # 挂载容器类型
+    type: id
+    name: footer-wrap
+    index: 0
+  # 计时器部分配置项
+  runtime_js: /js/buildTime.js
+  runtime_css: https://cdn.jsdelivr.net/npm/hexo-butterfly-footer-beautify@1.0.0/lib/runtime.css
+  # 徽标部分配置项
+  swiperpara: 0 #若非0，则开启轮播功能，每行徽标个数
+  bdageitem:
+    - link: https://hexo.io/ #徽标指向网站链接
+      shields: https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo #徽标API
+      message: 博客框架为Hexo_v5.4.0 #徽标提示语
+    - link: https://butterfly.js.org/
+      shields: https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender
+      message: 主题版本Butterfly_v3.8.2
+    - link: https://github.com/
+      shields: https://img.shields.io/badge/Source-Github-d021d6?style=flat&logo=GitHub
+      message: 本站项目由Gtihub托管
+    - link: http://creativecommons.org/licenses/by-nc-sa/4.0/
+      shields: https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&logo=Claris
+      message: 本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可
+  swiper_css: https://cdn.jsdelivr.net/npm/hexo-butterfly-swiper/lib/swiper.min.css
+  swiper_js: https://cdn.jsdelivr.net/npm/hexo-butterfly-swiper/lib/swiper.min.js
+  swiperbdage_init_js: https://cdn.jsdelivr.net/npm/hexo-butterfly-footer-beautify/lib/swiperbdage_init_js.min.js
