@@ -70,10 +70,10 @@ avatar:
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img: https://upload.wikimedia.org/wikipedia/commons/6/63/Vincent_van_Gogh_-_Wheat_Field_with_Cypresses_-_Google_Art_Project.jpg
+default_top_img: /img/vangogh.jpg
 
 # The banner image of index page
-index_img: https://upload.wikimedia.org/wikipedia/commons/6/63/Vincent_van_Gogh_-_Wheat_Field_with_Cypresses_-_Google_Art_Project.jpg
+index_img: /img/vangogh.jpg
 
 # The banner image of archive page
 archive_img:
@@ -95,7 +95,7 @@ category_img:
 category_per_img:
 
 # The background image of footer
-footer_img: https://upload.wikimedia.org/wikipedia/commons/6/63/Vincent_van_Gogh_-_Wheat_Field_with_Cypresses_-_Google_Art_Project.jpg
+footer_img: /img/vangogh.jpg
 
 # Website Background
 # Can set it to color or image url

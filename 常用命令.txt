@@ -10,3 +10,9 @@ hexo n post name
 git add .
 git commit -m "1117updata"
 git push origin main
+
+#拉取上次github的文件
+git status
+git reset --hard
+git fetch origin
+git reset --hard origin/main
