@@ -70,10 +70,10 @@ avatar:
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img: https://img.picui.cn/free/2024/11/18/673ace3eb6d99.jpeg
+default_top_img: /img/vangogh.jpeg
 
 # The banner image of index page
-index_img: https://img.picui.cn/free/2024/11/18/673ace3eb6d99.jpeg
+index_img: /img/vangogh.jpeg
 
 # The banner image of archive page
 archive_img:
@@ -95,7 +95,7 @@ category_img:
 category_per_img:
 
 # The background image of footer
-footer_img: https://img.picui.cn/free/2024/11/18/673ace3eb6d99.jpeg
+footer_img: /img/vangogh.jpeg
 
 # Website Background
 # Can set it to color or image url
