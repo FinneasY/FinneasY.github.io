@@ -25,7 +25,7 @@ menu:
     music: /music/ || fas fa-music
     photos: /Gallery/ || fas fa-images
     movies: /movies/ || fas fa-video
-  说说: /artitalk || fas fa-comments
+  说说: /shuoshuo || fas fa-comments
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
 
@@ -1156,3 +1156,22 @@ footer_beautify:
   swiper_css: https://cdn.jsdelivr.net/npm/hexo-butterfly-swiper/lib/swiper.min.css
   swiper_js: https://cdn.jsdelivr.net/npm/hexo-butterfly-swiper/lib/swiper.min.js
   swiperbdage_init_js: https://cdn.jsdelivr.net/npm/hexo-butterfly-footer-beautify/lib/swiperbdage_init_js.min.js
+
+
+ # Artitalk
+  # see https://artitalk.js.org/
+artitalk:
+  enable: true
+  appId: TjtKS0Evn8nZqCcZ9QKXTKbJ-MdYXbMMI
+  appKey: Uv9PQg6dIHCqoZ98CP6t9CUx
+  path:  
+  js: https://unpkg.com/aligu_artitalk@1.0.10/artitalk_aligu.js
+  option:
+    serverURL: 'https://artitalk.econfinny.com' 
+    pageSize: 10 
+    atComment: 0  # 是否可评论
+    atEmoji:  
+    color1: 'linear-gradient(60deg, #ffd7e4 0, #c8f1ff 93%)'  # 说说背景色1（默认是橙色）
+    color2: 'linear-gradient(60deg, #ffd7e4 0, #c8f1ff 93%)'  # 说说背景色2（默认是绿色）
+    color3: '#4c4948'  # 说说文字内容颜色（默认是白色）
+  front_matter:

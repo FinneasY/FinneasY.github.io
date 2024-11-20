@@ -134,13 +134,3 @@ markdown:
     collisionSuffix: ''
   
 
- # Artitalk
-  # see https://artitalk.js.org/
-  #artitalk:
-  #  enable: true
-  #  appId: TjtKS0Evn8nZqCcZ9QKXTKbJ-MdYXbMMI
-  #  appKey: Uv9PQg6dIHCqoZ98CP6t9CUx
-  #  path:
-  #  js: 
- #   option:
-  #  front_matter:
