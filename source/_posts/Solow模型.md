@@ -2,7 +2,7 @@
 title: Solow模型
 date: 2024-11-17 15:15:41
 tags: [宏观经济, 笔记, 经济增长]
-categoies: 宏观经济学
+categories: 宏观经济学
 copyright_author: Finneas
 mathjax: true
 ---
