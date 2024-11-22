@@ -1,7 +1,8 @@
 
 
 #清除缓存并且预览
-hexo clean && hexo g && hexo s
+hexo clean && hexo g && hexo d && hexo s
+npm run clean && npm run build
 
 #发文章
 hexo n post name

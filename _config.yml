@@ -107,8 +107,8 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: 'https://github.com/FinneasY/FinneasY.github.io.git'
-  branch: main
+  repo: 'git@github.com:FinneasY/FinneasY.github.io.git'
+  branch: master
   
 ####自己添加的
 kramed:
