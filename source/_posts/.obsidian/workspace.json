@@ -4,20 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "979a186f943898b9",
+        "id": "06ebbedc732473c4",
         "type": "tabs",
         "children": [
           {
-            "id": "5fda430fb5eefa4c",
+            "id": "ab10d89737f3868e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "阅读笔记｜基本有用的计量经济学.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "阅读笔记｜基本有用的计量经济学"
+            }
+          },
+          {
+            "id": "00c4fa5564b361df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "谁懂.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "谁懂"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +88,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -161,9 +179,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "52b1e9b5779bc56b",
+  "active": "00c4fa5564b361df",
   "lastOpenFiles": [
     "阅读笔记｜基本有用的计量经济学.md",
+    "谁懂.md",
     "我建站有用的教程.md",
     "数字隐私研究进展.md",
     "2024-11-19.md",
