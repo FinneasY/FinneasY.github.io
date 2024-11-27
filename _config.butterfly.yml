@@ -55,7 +55,7 @@ code_blocks:
 #   icon: link || the description || color
 social:
   fab fa-github: https://github.com/FinneasY || Github || '#EAECCC'
-  fas fa-bilibili: https://space.bilibili.com/25843658 || bilibili || '#EAECCC'
+  fab fa-bilibili: https://space.bilibili.com/25843658 || bilibili || '#EAECCC'
   fas fa-envelope: mailto:finneasyuan@outlook.com || Email || '#EAECCC'
 
 # --------------------------------------
