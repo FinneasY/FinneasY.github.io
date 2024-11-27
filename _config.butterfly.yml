@@ -55,6 +55,7 @@ code_blocks:
 #   icon: link || the description || color
 social:
   fab fa-github: https://github.com/FinneasY || Github || '#EAECCC'
+  fas fa-bilibili: https://space.bilibili.com/25843658 || bilibili || '#EAECCC'
   fas fa-envelope: mailto:finneasyuan@outlook.com || Email || '#EAECCC'
 
 # --------------------------------------
@@ -291,9 +292,9 @@ aside:
     description: 北京大学(民族 version)
     button:
       enable: true
-      icon: fab fa-github
+      icon: fab fa-bilibili
       text: Follow Me
-      link: https://github.com/FinneasY
+      link: https://space.bilibili.com/25843658
   card_announcement:
     enable: true
     content: 本人开始折腾个人网站了！
