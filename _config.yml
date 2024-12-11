@@ -140,3 +140,7 @@ sitemap:
   rel: true
   tags: false
   categories: false
+
+favicon: 
+  small: /img/lemon.png
+  medium: /img/lemon.png
