@@ -144,3 +144,19 @@ sitemap:
 favicon: 
   small: /img/lemon.png
   medium: /img/lemon.png
+
+algolia:
+  appId: "AMXVJHLAK3"
+  apiKey: "9e32fa7d8e85d979a1735255bc0ecc83"
+  adminApiKey: "69c212b0c1c8a575a22b8af17fc9baa4"
+  chunkSize: 5000
+  indexName: "econFinny"
+  fields:
+    - content:strip:truncate,0,500
+    - excerpt:strip
+    - gallery
+    - permalink
+    - photos
+    - slug
+    - tags
+    - title
