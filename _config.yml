@@ -4,7 +4,7 @@
 
 # Site
 title: Finneas's
-subtitle: '一个经济学小登的主页'
+subtitle: '一个经济学小登的主页_econFinny'
 description: 'When you know you know, you know ~'
 keywords: 经济学，健康经济，心理健康
 author: Finneas
@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://econfinny.com
+url: https://blog.econfinny.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
