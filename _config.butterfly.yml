@@ -21,11 +21,11 @@ menu:
   列表||fa fa-list:
     标签: /tags/ || fas fa-tags
     分类: /categories/ || fas fa-folder-open
-  清单||fa fa-reorder:
-    music: /music/ || fas fa-music
-    photos: /Gallery/ || fas fa-images
-    movies: /movies/ || fas fa-video
-  说说: /shuoshuo || fas fa-comments
+  # 清单||fa fa-reorder:
+  音乐: /music/ || fas fa-music
+  #  photos: /Gallery/ || fas fa-images
+  # movies: /movies/ || fas fa-video
+  # 说说: /shuoshuo || fas fa-comments
   友链: /link/ || fas fa-link
   开往: https://www.travellings.cn/go.html || fas fa-train-subway
   关于: /about/ || fas fa-heart
@@ -1119,12 +1119,12 @@ CDN:
     # snackbar:
     # snackbar_css:
     # translate:
-    twikoo: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/twikoo/1.4.18/twikoo.all.min.js
+    # twikoo: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/twikoo/1.4.18/twikoo.all.min.js
     # typed:
     # utils:
     # valine:
     # waline_css:
-    waline_js: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/waline/1.5.4/Waline.min.js
+    # waline_js:
 
 # footer_beautify
 # 页脚计时器：[Native JS Timer](https://akilar.top/posts/b941af/)
@@ -1169,12 +1169,12 @@ footer_beautify:
   # see https://artitalk.js.org/
 artitalk:
   enable: true
-  appId: TjtKS0Evn8nZqCcZ9QKXTKbJ-MdYXbMMI
-  appKey: Uv9PQg6dIHCqoZ98CP6t9CUx
+  appId: ZbZnHACL2tpq2GbBjIHRnx79-gzGzoHsz
+  appKey: 4rsv2rrzHZ2KXR5FXNeOV06g
   path:  
   js: https://unpkg.com/aligu_artitalk@1.0.10/artitalk_aligu.js
   option:
-    serverURL: 'https://artitalk.econfinny.com' 
+    serverURL: 'https://zbznhacl.lc-cn-n1-shared.com' 
     pageSize: 10 
     atComment: 0  # 是否可评论
     atEmoji:  

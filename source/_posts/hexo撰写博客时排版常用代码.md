@@ -28,4 +28,24 @@ categories: 建站
 {% endnote %}
 - 除此之外，其他的callout栏可以见官方的主题文档教程，官方命名为[**外挂标签**](https://butterfly.js.org/posts/ceeb73f/)。
 
+## 时间线（更新于2024.12.13）
+在[关于](https://blog.econfinny.com/about/)界面的教育经历中，我想使用时间线来表示我的教育经历，查资料后方法如下：
+
+```
+{% timeline 教育经历, green %}
+
+<!-- timeline 2021.9-2025.6 -->
+
+中央民族大学······经济学院······经济学
+
+<!-- endtimeline -->
+<!-- timeline title -->
+
+xxxxx
+
+<!-- endtimeline -->
+
+{% endtimeline %}
+```
+
 ---
