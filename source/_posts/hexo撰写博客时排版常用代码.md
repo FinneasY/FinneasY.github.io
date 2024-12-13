@@ -48,4 +48,17 @@ xxxxx
 {% endtimeline %}
 ```
 
+## Tabs板
+```
+{% tabs Unique name, [index] %}
+
+<!-- tab [Tab caption] [@icon] -->
+
+Any content (support inline tags too).
+
+<!-- endtab -->
+
+{% endtabs %}
+```
+
 ---
