@@ -9,6 +9,7 @@ comments: true
 <div id="artitalk_main"></div>
 <script>
 new Artitalk({
+    serverURL: 'https://arititalk.econfinny.com',
     appId: 'TjtKS0Evn8nZqCcZ9QKXTKbJ-MdYXbMMI', // Your LeanCloud appId
     appKey: 'Uv9PQg6dIHCqoZ98CP6t9CUx' // Your LeanCloud appKey
 })

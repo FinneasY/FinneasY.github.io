@@ -201,7 +201,7 @@ index_post_content:
 toc:
   post: true
   page: true
-  number: true
+  number: false
   expand: false
   # Only for post
   style_simple: false
@@ -810,11 +810,11 @@ beautify:
   # Specify the field to beautify (site or post)
   field: site
   # Specify the icon to be used as a prefix for the title, such as '\f0c1'
-  title_prefix_icon: '\f0c1'
+  title_prefix_icon: '\f0eb'
   # Specify the color of the title prefix icon, such as '#F47466'
-  title_prefix_icon_color: '#F47466'
+  title_prefix_icon_color: '#869073'
 
-# Global font settings
+# Global font  settings
 # Don't modify the following settings unless you know how they work
 font:
   global_font_size:
@@ -1119,12 +1119,12 @@ CDN:
     # snackbar:
     # snackbar_css:
     # translate:
-    # twikoo:
+    twikoo: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/twikoo/1.4.18/twikoo.all.min.js
     # typed:
     # utils:
     # valine:
     # waline_css:
-    # waline_js:
+    waline_js: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/waline/1.5.4/Waline.min.js
 
 # footer_beautify
 # 页脚计时器：[Native JS Timer](https://akilar.top/posts/b941af/)
