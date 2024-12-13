@@ -1,7 +1,7 @@
 
 
 #清除缓存并且预览
-hexo clean && hexo g && hexo d && hexo s
+hexo clean && hexo g && hexo d && hexo algolia && hexo s
 npm run clean && npm run build
 
 #发文章
@@ -9,7 +9,7 @@ hexo n post name
 
 #推送到github
 git add .
-git commit -m "1213更新数字隐私技术保护"
+git commit -m "1213更新"
 git push origin main
 
 git push origin main --force
