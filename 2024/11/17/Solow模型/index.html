@@ -434,7 +434,7 @@
     if (initFn) initWaline(initFn, el, path)
     else {
       btf.getCSS('https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.min.css')
-        .then(() => import('https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/waline/1.5.4/Waline.min.js'))
+        .then(() => import('https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.min.js'))
         .then(({ init }) => {
           initFn = init || Waline.init
           initWaline(initFn, el, path)
