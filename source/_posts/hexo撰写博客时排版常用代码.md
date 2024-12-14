@@ -62,3 +62,21 @@ Any content (support inline tags too).
 ```
 
 ---
+## 公式问题
+今天在修改索洛模型一章笔记的时候遇到了一点问题，我想要在长等号上输入内容，但是markdown语法中似乎不能调latex的宏包，不确定能不能用以下代码：
+```
+\xlongequal
+```
+渲染出来如下
+$$
+A \xlongequal{xxxxxxxx} B
+$$
+
+我还在知乎上看到一个有趣的解决方案：可以采用多个等号连接，用\!减小其间距直至间隙消失，如果要在上下编辑内容可以使用overset和underset。
+```
+\overset{\text{text}}{=\!=\!=}
+```
+渲染出来如下：
+$$
+\overset{\text{text}}{=\!=\!=}
+$$
