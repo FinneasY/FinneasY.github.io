@@ -36,17 +36,18 @@ categories: 建站
 快捷指令icloud链接请点击：{% btn 'https://www.icloud.com/shortcuts/de89564e27224eebb73c08a55945651e',说说编辑, blue %}
 
 快捷指令截图如下：
-[1](source/img/快捷指令说说编辑/IMG_6636.PNG)
-[2](source/img/快捷指令说说编辑/IMG_6638.PNG)
-[3](source/img/快捷指令说说编辑/IMG_6639.PNG)
-[4](source/img/快捷指令说说编辑/IMG_6640.PNG)
+<img src='https://blog.econfinny.com/img/快捷指令说说编辑/IMG_6636.PNG' height='600'/>
+<img src='https://blog.econfinny.com/img/快捷指令说说编辑/IMG_6638.PNG' height='600'/>
+<img src='https://blog.econfinny.com/img/快捷指令说说编辑/IMG_6639.PNG' height='600'/>
+<img src='https://blog.econfinny.com/img/快捷指令说说编辑/IMG_6640.PNG' height='600'/>
+
 
 # 快捷指令运行样式
-[5](source/img/快捷指令说说编辑/IMG_6641.PNG)
-[6](source/img/快捷指令说说编辑/IMG_6642.PNG)
+<img src='https://blog.econfinny.com/img/快捷指令说说编辑/IMG_6641.PNG' height='600'/>
+<img src='https://blog.econfinny.com/img/快捷指令说说编辑/IMG_6642.PNG' height='600'/>
 
 # 快捷指令桌面启动
-[7](source/img/快捷指令说说编辑/IMG_6643.PNG)
+<img src='https://blog.econfinny.com/img/快捷指令说说编辑/IMG_6643.PNG' height='600'/>
 
 # 我在butterfly主题下的询问
 但毕竟我没学过编程，感觉有些需求应该也是不难实现的，所以我在butterfly主题的github留言板下发了一条讨论帖，希望能得到回复。
