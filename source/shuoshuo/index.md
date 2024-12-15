@@ -1,6 +1,13 @@
 ---
-title: shuoshuo
+title: 说说
 date: 2024-11-20 17:39:00
 comments: false
 type: 'shuoshuo'
 ---
+
+- date: 2024-12-15 10:55:26
+  key: key-1 
+  content: |
+    奔溃，artitalk在国内用不了，尝试用ios快捷指令推送这个本地部署的说说又一直提示422，腿不上！！
+  tags:
+    - 奔溃

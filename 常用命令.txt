@@ -9,7 +9,7 @@ hexo n post name
 
 #推送到github
 git add .
-git commit -m "1214更新shuoshuo"
+git commit -m "1215更新说说"
 git push origin main
 
 git push origin main --force
