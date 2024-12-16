@@ -7,6 +7,7 @@ tags:
   - Stata
 categories: 数据清洗
 copyright_author: Finneas
+urlname: data-clean
 ---
 ## 开始之前
 - 首先要明确自己的数据清洗需求，我的需求如下：

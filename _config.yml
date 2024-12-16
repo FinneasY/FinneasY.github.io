@@ -14,7 +14,7 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://blog.econfinny.com
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:day/:urlname/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -160,3 +160,17 @@ algolia:
     - slug
     - tags
     - title
+
+feed:
+  enable: true #是否启用插件
+  type: atom #有atom和rss2两个选项，使用默认atom就好了
+  path: atom.xml #也用默认配置atom.xml就行
+  limit: 20 #展示文章的数量,使用 0 或 false 代表展示全部
+  hub: #这个我没用上，根据官网，空着就行
+  content: #默认是false，true的话会在rss文件中包含整个文章内容
+  content_limit: 140 #摘要长度
+  content_limit_delim: ' ' #没看明白官方的意思，就跟着默认不填了
+  order_by: -date #采用日期进行排序
+  icon: icon.png #给rss链接配置icon
+  autodiscovery: true #自动发现提要
+  template: #给rss文章配置模板

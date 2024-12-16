@@ -5,6 +5,7 @@ tags: [宏观经济, 笔记, 经济增长]
 categories: 宏观经济学
 copyright_author: Finneas
 mathjax: true
+urlname: solow-model
 ---
 
 

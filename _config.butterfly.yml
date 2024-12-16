@@ -54,6 +54,7 @@ code_blocks:
 # Formal:
 #   icon: link || the description || color
 social:
+  fas fa-rss: https://blog.econfinny.com/atom.xml
   fab fa-github: https://github.com/FinneasY || Github || '#EAECCC'
   fab fa-bilibili: https://space.bilibili.com/25843658 || bilibili || '#EAECCC'
   fas fa-envelope: mailto:finneasyuan@outlook.com || Email || '#EAECCC'
@@ -292,9 +293,9 @@ aside:
     description: 北京大学(民族 version)
     button:
       enable: true
-      icon: fab fa-bilibili
+      icon: fas fa-rss
       text: Follow Me
-      link: https://space.bilibili.com/25843658
+      link: https://blog.econfinny.com/atom.xml
   card_announcement:
     enable: true
     content: 本人开始折腾个人网站了！
@@ -1182,3 +1183,5 @@ artitalk:
     color2: 'linear-gradient(60deg, #ffd7e4 0, #c8f1ff 93%)'  # 说说背景色2（默认是绿色）
     color3: '#4c4948'  # 说说文字内容颜色（默认是白色）
   front_matter:
+
+rss: /atom.xml

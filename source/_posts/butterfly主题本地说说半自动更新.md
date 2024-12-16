@@ -3,6 +3,7 @@ title: butterfly主题本地说说半自动更新
 date: 2024-12-15 15:55:29
 tags: 建站
 categories: 建站
+urlname: 20241215
 ---
 
 # 问题
