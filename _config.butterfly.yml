@@ -54,7 +54,7 @@ code_blocks:
 # Formal:
 #   icon: link || the description || color
 social:
-  fas fa-rss: https://blog.econfinny.com/atom.xml
+  fas fa-rss: https://blog.econfinny.com/atom.xml || RSS || '#EAECCC'
   fab fa-github: https://github.com/FinneasY || Github || '#EAECCC'
   fab fa-bilibili: https://space.bilibili.com/25843658 || bilibili || '#EAECCC'
   fas fa-envelope: mailto:finneasyuan@outlook.com || Email || '#EAECCC'
@@ -294,7 +294,7 @@ aside:
     button:
       enable: true
       icon: fas fa-rss
-      text: Follow Me
+      text: 订阅我
       link: https://blog.econfinny.com/atom.xml
   card_announcement:
     enable: true

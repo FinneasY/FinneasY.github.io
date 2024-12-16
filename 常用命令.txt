@@ -9,7 +9,7 @@ hexo n post name
 
 #推送到github
 git add .
-git commit -m "1216更新rss和优化链接"
+git commit -m "1216更新rss"
 git push origin main
 
 git push origin main --force
