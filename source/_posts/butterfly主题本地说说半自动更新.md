@@ -4,6 +4,7 @@ date: 2024-12-15 15:55:29
 tags: 建站
 categories: 建站
 urlname: 20241215
+description: 好友帮助下已实现全自动
 ---
 
 # 问题
@@ -54,3 +55,4 @@ urlname: 20241215
 但毕竟我没学过编程，感觉有些需求应该也是不难实现的，所以我在butterfly主题的github留言板下发了一条讨论帖，希望能得到回复。
 留言回复请点击：{% btn 'https://github.com/jerryc127/hexo-theme-butterfly/discussions/1623',讨论帖, blue %}
 
+# 好友帮助下已实现全自动
