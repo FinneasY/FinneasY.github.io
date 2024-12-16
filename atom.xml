@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Finneas&#39;s</title>
+  <icon>https://blog.econfinny.com/icon.png</icon>
+  <subtitle>一个经济学小登的主页_econFinny</subtitle>
+  <link href="https://blog.econfinny.com/atom.xml" rel="self"/>
+  
+  <link href="https://blog.econfinny.com/"/>
+  <updated>2024-12-16T03:31:52.814Z</updated>
+  <id>https://blog.econfinny.com/</id>
+  
+  <author>
+    <name>Finneas</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>隐私保护悖论文献阅读记录</title>
+    <link href="https://blog.econfinny.com/2024/12/15/privacy-paradox/"/>
+    <id>https://blog.econfinny.com/2024/12/15/privacy-paradox/</id>
+    <published>2024-12-15T08:52:39.000Z</published>
+    <updated>2024-12-16T03:31:52.814Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;草稿&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#草稿&quot;&gt;&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="文献阅读" scheme="https://blog.econfinny.com/categories/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/"/>
+    
+    
+    <category term="隐私保护悖论" scheme="https://blog.econfinny.com/tags/%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E6%82%96%E8%AE%BA/"/>
+    
+    <category term="数字隐私" scheme="https://blog.econfinny.com/tags/%E6%95%B0%E5%AD%97%E9%9A%90%E7%A7%81/"/>
+    
+    <category term="数字经济" scheme="https://blog.econfinny.com/tags/%E6%95%B0%E5%AD%97%E7%BB%8F%E6%B5%8E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>butterfly主题本地说说半自动更新</title>
+    <link href="https://blog.econfinny.com/2024/12/15/20241215/"/>
+    <id>https://blog.econfinny.com/2024/12/15/20241215/</id>
+    <published>2024-12-15T07:55:29.000Z</published>
+    <updated>2024-12-16T03:32:04.438Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;问题&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#问题&quot;&gt;&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="建站" scheme="https://blog.econfinny.com/categories/%E5%BB%BA%E7%AB%99/"/>
+    
+    
+    <category term="建站" scheme="https://blog.econfinny.com/tags/%E5%BB%BA%E7%AB%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数字隐私保护技术文献阅读记录</title>
+    <link href="https://blog.econfinny.com/2024/12/13/digital-econ-privacy-protection/"/>
+    <id>https://blog.econfinny.com/2024/12/13/digital-econ-privacy-protection/</id>
+    <published>2024-12-13T13:09:46.000Z</published>
+    <updated>2024-12-16T03:31:36.803Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;写作思路&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#写作思路&quot;&gt;&lt;/a&gt; 写作思路&lt;/h1&gt;
+&lt;h2 id=&quot;隐私保护技术&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#隐私保护技术&quot;&gt;&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="文献阅读" scheme="https://blog.econfinny.com/categories/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/"/>
+    
+    
+    <category term="数字隐私" scheme="https://blog.econfinny.com/tags/%E6%95%B0%E5%AD%97%E9%9A%90%E7%A7%81/"/>
+    
+    <category term="数字经济" scheme="https://blog.econfinny.com/tags/%E6%95%B0%E5%AD%97%E7%BB%8F%E6%B5%8E/"/>
+    
+    <category term="文献阅读" scheme="https://blog.econfinny.com/tags/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo撰写博客时排版常用代码</title>
+    <link href="https://blog.econfinny.com/2024/11/29/paiban/"/>
+    <id>https://blog.econfinny.com/2024/11/29/paiban/</id>
+    <published>2024-11-29T03:20:11.000Z</published>
+    <updated>2024-12-16T03:32:07.837Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt; 前言&lt;/h1&gt;
+&lt;p&gt;这篇文章收录一些我排版时常会遇到的问题，以及解决方法。&lt;br</summary>
+        
+      
+    
+    
+    
+    <category term="建站" scheme="https://blog.econfinny.com/categories/%E5%BB%BA%E7%AB%99/"/>
+    
+    
+    <category term="建站" scheme="https://blog.econfinny.com/tags/%E5%BB%BA%E7%AB%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据清洗｜Stata清洗CFPS数据</title>
+    <link href="https://blog.econfinny.com/2024/11/22/data-clean/"/>
+    <id>https://blog.econfinny.com/2024/11/22/data-clean/</id>
+    <published>2024-11-22T07:17:47.000Z</published>
+    <updated>2024-12-16T03:31:32.482Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;开始之前&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#开始之前&quot;&gt;&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="数据清洗" scheme="https://blog.econfinny.com/categories/%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97/"/>
+    
+    
+    <category term="数据清洗" scheme="https://blog.econfinny.com/tags/%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97/"/>
+    
+    <category term="CFPS" scheme="https://blog.econfinny.com/tags/CFPS/"/>
+    
+    <category term="Stata" scheme="https://blog.econfinny.com/tags/Stata/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>阅读笔记｜基本有用的计量经济学</title>
+    <link href="https://blog.econfinny.com/2024/11/20/econometrics01/"/>
+    <id>https://blog.econfinny.com/2024/11/20/econometrics01/</id>
+    <published>2024-11-20T06:42:03.000Z</published>
+    <updated>2024-12-16T03:31:59.547Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;第一章-绪论&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#第一章-绪论&quot;&gt;&lt;/a&gt; 第一章 绪论&lt;/h2&gt;
+&lt;h3 id=&quot;一-引言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#一-引言&quot;&gt;&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="计量经济学" scheme="https://blog.econfinny.com/categories/%E8%AE%A1%E9%87%8F%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
+    
+    
+    <category term="笔记" scheme="https://blog.econfinny.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="计量经济学" scheme="https://blog.econfinny.com/tags/%E8%AE%A1%E9%87%8F%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
+    
+    <category term="因果推断" scheme="https://blog.econfinny.com/tags/%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我建站有用的教程</title>
+    <link href="https://blog.econfinny.com/2024/11/17/website-building/"/>
+    <id>https://blog.econfinny.com/2024/11/17/website-building/</id>
+    <published>2024-11-17T09:42:28.000Z</published>
+    <updated>2024-12-16T03:31:41.233Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;行内公式渲染问题&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#行内公式渲染问题&quot;&gt;&lt;/a&gt; 行内公式渲染问题&lt;/h1&gt;
+&lt;p&gt;可以参考&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="编程" scheme="https://blog.econfinny.com/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="建站" scheme="https://blog.econfinny.com/tags/%E5%BB%BA%E7%AB%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Solow模型</title>
+    <link href="https://blog.econfinny.com/2024/11/17/solow-model/"/>
+    <id>https://blog.econfinny.com/2024/11/17/solow-model/</id>
+    <published>2024-11-17T07:15:41.000Z</published>
+    <updated>2024-12-16T03:32:13.421Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;索洛模型-solow-model&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#索洛模型-solow-model&quot;&gt;&lt;/a&gt; 索洛模型 (Solow Model)&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="宏观经济学" scheme="https://blog.econfinny.com/categories/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
+    
+    
+    <category term="宏观经济" scheme="https://blog.econfinny.com/tags/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E/"/>
+    
+    <category term="笔记" scheme="https://blog.econfinny.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="经济增长" scheme="https://blog.econfinny.com/tags/%E7%BB%8F%E6%B5%8E%E5%A2%9E%E9%95%BF/"/>
+    
+  </entry>
+  
+</feed>
