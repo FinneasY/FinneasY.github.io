@@ -6,6 +6,7 @@ categories: 宏观经济学
 copyright_author: Finneas
 mathjax: true
 urlname: solow-model
+description: 这篇文章是本人关于索洛模型（solow model）的笔记总结，其中数理推导的部分我尽我所能写得容易理解，一步一步推导的话草履虫都能看懂。
 ---
 
 
