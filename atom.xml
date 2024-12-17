@@ -6,7 +6,7 @@
   <link href="https://blog.econfinny.com/atom.xml" rel="self"/>
   
   <link href="https://blog.econfinny.com/"/>
-  <updated>2024-12-16T03:31:52.814Z</updated>
+  <updated>2024-12-17T03:11:16.159Z</updated>
   <id>https://blog.econfinny.com/</id>
   
   <author>
@@ -21,16 +21,11 @@
     <link href="https://blog.econfinny.com/2024/12/15/privacy-paradox/"/>
     <id>https://blog.econfinny.com/2024/12/15/privacy-paradox/</id>
     <published>2024-12-15T08:52:39.000Z</published>
-    <updated>2024-12-16T03:31:52.814Z</updated>
+    <updated>2024-12-17T03:11:16.159Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;草稿&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#草稿&quot;&gt;&lt;/a&gt;</summary>
-        
-      
+    <summary type="html">&lt;h1 id=&quot;草稿&quot;&gt;草稿&lt;/h1&gt;
+&lt;p&gt;Brown(2001)人们虽然声称非常重视个人隐私，但在实际行为中却往往愿意以轻率或廉价的代价交换或放弃自己的隐私信息，这种行为与态度不一致的现象被称为“隐私悖论”（Privacy Paradox）(Brown,2001; Norberg, 2007)。&lt;/p&gt;</summary>
     
     
     
@@ -69,17 +64,10 @@
     <link href="https://blog.econfinny.com/2024/12/13/digital-econ-privacy-protection/"/>
     <id>https://blog.econfinny.com/2024/12/13/digital-econ-privacy-protection/</id>
     <published>2024-12-13T13:09:46.000Z</published>
-    <updated>2024-12-16T03:31:36.803Z</updated>
+    <updated>2024-12-17T03:10:58.139Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;写作思路&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#写作思路&quot;&gt;&lt;/a&gt; 写作思路&lt;/h1&gt;
-&lt;h2 id=&quot;隐私保护技术&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#隐私保护技术&quot;&gt;&lt;/a&gt;</summary>
-        
-      
+    <summary type="html">隐私保护是数字化时代中数据安全和用户信任的重要议题，隐私保护技术的研究紧随大数据、云计算和区块链等技术的进步，不断演化以应对日益复杂的数据环境中的隐私风险。</summary>
     
     
     
@@ -106,8 +94,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt; 前言&lt;/h1&gt;
-&lt;p&gt;这篇文章收录一些我排版时常会遇到的问题，以及解决方法。&lt;br</summary>
+    <summary type="html">&lt;h1</summary>
         
       
     
@@ -132,7 +119,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;开始之前&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#开始之前&quot;&gt;&lt;/a&gt;</summary>
+    <summary type="html">&lt;h2</summary>
         
       
     
@@ -161,8 +148,9 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;第一章-绪论&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#第一章-绪论&quot;&gt;&lt;/a&gt; 第一章 绪论&lt;/h2&gt;
-&lt;h3 id=&quot;一-引言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#一-引言&quot;&gt;&lt;/a&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;第一章-绪论&quot;&gt;第一章 绪论&lt;/h2&gt;
+&lt;h3 id=&quot;一-引言&quot;&gt;一、引言&lt;/h3&gt;
+&lt;h4 id=&quot;1-因果关系的研究方向&quot;&gt;1.</summary>
         
       
     
@@ -191,7 +179,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;行内公式渲染问题&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#行内公式渲染问题&quot;&gt;&lt;/a&gt; 行内公式渲染问题&lt;/h1&gt;
+    <summary type="html">&lt;h1 id=&quot;行内公式渲染问题&quot;&gt;行内公式渲染问题&lt;/h1&gt;
 &lt;p&gt;可以参考&lt;a</summary>
         
       
@@ -210,18 +198,10 @@
     <link href="https://blog.econfinny.com/2024/11/17/solow-model/"/>
     <id>https://blog.econfinny.com/2024/11/17/solow-model/</id>
     <published>2024-11-17T07:15:41.000Z</published>
-    <updated>2024-12-16T03:32:13.421Z</updated>
+    <updated>2024-12-17T03:10:30.529Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;索洛模型-solow-model&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#索洛模型-solow-model&quot;&gt;&lt;/a&gt; 索洛模型 (Solow Model)&lt;/h1&gt;
-&lt;hr /&gt;
-&lt;h2</summary>
-        
-      
+    <summary type="html">这篇文章是本人关于索洛模型（solow model）的笔记总结，其中数理推导的部分我尽我所能写得容易理解，一步一步推导的话草履虫都能看懂。</summary>
     
     
     

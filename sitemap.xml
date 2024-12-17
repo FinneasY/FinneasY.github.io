@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.econfinny.com/2024/12/15/privacy-paradox/</loc>
+    
+    <lastmod>2024-12-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.econfinny.com/2024/12/13/digital-econ-privacy-protection/</loc>
+    
+    <lastmod>2024-12-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.econfinny.com/2024/11/17/solow-model/</loc>
+    
+    <lastmod>2024-12-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.econfinny.com/shuoshuo/index.html</loc>
     
     <lastmod>2024-12-16</lastmod>
@@ -12,15 +39,6 @@
   
   <url>
     <loc>https://blog.econfinny.com/2024/12/15/20241215/</loc>
-    
-    <lastmod>2024-12-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.econfinny.com/2024/11/17/solow-model/</loc>
     
     <lastmod>2024-12-16</lastmod>
     
@@ -47,25 +65,7 @@
   </url>
   
   <url>
-    <loc>https://blog.econfinny.com/2024/12/15/privacy-paradox/</loc>
-    
-    <lastmod>2024-12-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.econfinny.com/2024/11/17/website-building/</loc>
-    
-    <lastmod>2024-12-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.econfinny.com/2024/12/13/digital-econ-privacy-protection/</loc>
     
     <lastmod>2024-12-16</lastmod>
     
@@ -130,7 +130,7 @@
 
   <url>
     <loc>https://blog.econfinny.com/</loc>
-    <lastmod>2024-12-16</lastmod>
+    <lastmod>2024-12-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
