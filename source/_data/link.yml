@@ -4,4 +4,17 @@
     - name: 滑翔伞
       link: https://blog.huaxiangshan.com/zh-cn/
       avatar: https://blog.huaxiangshan.com/images/avatar.png
-      descr: 正在学习经济学的二次元|
+      descr: 正在学习经济学的二次元
+- class_name: 单向链接
+  class_desc: 我关注的博主～
+  link_list:
+    - name: 6young
+      link: https://www.6young.site/
+      avatar: https://gcore.jsdelivr.net/gh/6YoungHome/cdn2@main/clear_favicon.png
+      descr: 分享code & fintech，随便做一做就好能做好最好的个人网站～
+    - name: Ying Zheng老师
+      link: https://yingzheng-econ.github.io
+      avatar: https://yingzheng-econ.github.io/assets/images/yingzheng.png
+      descr: Assistant Professor of Economics at the Renmin University of China
+
+
