@@ -24,7 +24,8 @@
     <updated>2024-12-17T05:43:42.146Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;草稿&quot;&gt;&lt;a href=&quot;#草稿&quot; class=&quot;headerlink&quot; title=&quot;草稿&quot;&gt;&lt;/a&gt;草稿&lt;/h1&gt;&lt;p&gt;人们虽然声称非常重视个人隐私，但在实际行为中却往往愿意以轻率或廉价的代价交换或放弃自己的隐私信息，这种行为与态度不一致的现象被称为“隐私悖论”（Privacy Paradox）(Brown,2001; Norberg, 2007)。&lt;br&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;草稿&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#草稿&quot;&gt;&lt;/a&gt; 草稿&lt;/h1&gt;
+&lt;p&gt;人们虽然声称非常重视个人隐私，但在实际行为中却往往愿意以轻率或廉价的代价交换或放弃自己的隐私信息，这种行为与态度不一致的现象被称为“隐私悖论”（Privacy Paradox）(Brown,2001; Norberg, 2007)。&lt;/p&gt;</summary>
     
     
     
@@ -93,7 +94,8 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt; 前言&lt;/h1&gt;
+&lt;p&gt;这篇文章收录一些我排版时常会遇到的问题，以及解决方法。&lt;br</summary>
         
       
     
@@ -118,7 +120,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;开始之前&quot;&gt;&lt;a href=&quot;#开始之前&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;开始之前&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#开始之前&quot;&gt;&lt;/a&gt;</summary>
         
       
     
@@ -147,7 +149,8 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;第一章-绪论&quot;&gt;&lt;a href=&quot;#第一章-绪论&quot; class=&quot;headerlink&quot; title=&quot;第一章 绪论&quot;&gt;&lt;/a&gt;第一章 绪论&lt;/h2&gt;&lt;h3 id=&quot;一、引言&quot;&gt;&lt;a href=&quot;#一、引言&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;第一章-绪论&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#第一章-绪论&quot;&gt;&lt;/a&gt; 第一章 绪论&lt;/h2&gt;
+&lt;h3 id=&quot;一-引言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#一-引言&quot;&gt;&lt;/a&gt;</summary>
         
       
     
@@ -176,7 +179,8 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;行内公式渲染问题&quot;&gt;&lt;a href=&quot;#行内公式渲染问题&quot; class=&quot;headerlink&quot; title=&quot;行内公式渲染问题&quot;&gt;&lt;/a&gt;行内公式渲染问题&lt;/h1&gt;&lt;p&gt;可以参考&lt;a</summary>
+    <summary type="html">&lt;h1 id=&quot;行内公式渲染问题&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#行内公式渲染问题&quot;&gt;&lt;/a&gt; 行内公式渲染问题&lt;/h1&gt;
+&lt;p&gt;可以参考&lt;a</summary>
         
       
     
