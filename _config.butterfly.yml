@@ -27,6 +27,7 @@ menu:
   # movies: /movies/ || fas fa-video
   说说: /shuoshuo || fas fa-comments
   友链: /link/ || fas fa-link
+  快链: /fast/ || fa-regular fa-globe
   开往: https://www.travellings.cn/go.html || fas fa-train-subway
   关于: /about/ || fas fa-heart
 
