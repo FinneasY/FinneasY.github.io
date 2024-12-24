@@ -6,7 +6,7 @@
   <link href="https://blog.econfinny.com/atom.xml" rel="self"/>
   
   <link href="https://blog.econfinny.com/"/>
-  <updated>2024-12-17T05:43:42.146Z</updated>
+  <updated>2024-12-19T05:30:30.361Z</updated>
   <id>https://blog.econfinny.com/</id>
   
   <author>
@@ -17,14 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>数字隐私悖论文献阅读记录</title>
+    <title>MWG-偏好与选择</title>
+    <link href="https://blog.econfinny.com/2024/12/19/preference-and-choice/"/>
+    <id>https://blog.econfinny.com/2024/12/19/preference-and-choice/</id>
+    <published>2024-12-19T03:47:54.000Z</published>
+    <updated>2024-12-19T05:30:30.361Z</updated>
+    
+    
+    <summary type="html">高级微观经济学的第一篇笔记，主要内容为偏好与选择。（更新中）</summary>
+    
+    
+    
+    <category term="微观经济学" scheme="https://blog.econfinny.com/categories/%E5%BE%AE%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
+    
+    
+    <category term="微观经济学" scheme="https://blog.econfinny.com/tags/%E5%BE%AE%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
+    
+    <category term="MWG" scheme="https://blog.econfinny.com/tags/MWG/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>隐私悖论文献阅读记录</title>
     <link href="https://blog.econfinny.com/2024/12/15/privacy-paradox/"/>
     <id>https://blog.econfinny.com/2024/12/15/privacy-paradox/</id>
     <published>2024-12-15T08:52:39.000Z</published>
-    <updated>2024-12-17T05:43:42.146Z</updated>
+    <updated>2024-12-19T06:21:22.513Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;草稿&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#草稿&quot;&gt;&lt;/a&gt; 草稿&lt;/h1&gt;
+    <summary type="html">&lt;h1 id=&quot;草稿&quot;&gt;草稿&lt;/h1&gt;
 &lt;p&gt;人们虽然声称非常重视个人隐私，但在实际行为中却往往愿意以轻率或廉价的代价交换或放弃自己的隐私信息，这种行为与态度不一致的现象被称为“隐私悖论”（Privacy Paradox）(Brown,2001; Norberg, 2007)。&lt;/p&gt;</summary>
     
     
@@ -94,8 +115,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt; 前言&lt;/h1&gt;
-&lt;p&gt;这篇文章收录一些我排版时常会遇到的问题，以及解决方法。&lt;br</summary>
+    <summary type="html">&lt;h1</summary>
         
       
     
@@ -120,7 +140,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;开始之前&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#开始之前&quot;&gt;&lt;/a&gt;</summary>
+    <summary type="html">&lt;h2</summary>
         
       
     
@@ -149,8 +169,9 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;第一章-绪论&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#第一章-绪论&quot;&gt;&lt;/a&gt; 第一章 绪论&lt;/h2&gt;
-&lt;h3 id=&quot;一-引言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#一-引言&quot;&gt;&lt;/a&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;第一章-绪论&quot;&gt;第一章 绪论&lt;/h2&gt;
+&lt;h3 id=&quot;一-引言&quot;&gt;一、引言&lt;/h3&gt;
+&lt;h4 id=&quot;1-因果关系的研究方向&quot;&gt;1.</summary>
         
       
     
@@ -179,7 +200,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;行内公式渲染问题&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#行内公式渲染问题&quot;&gt;&lt;/a&gt; 行内公式渲染问题&lt;/h1&gt;
+    <summary type="html">&lt;h1 id=&quot;行内公式渲染问题&quot;&gt;行内公式渲染问题&lt;/h1&gt;
 &lt;p&gt;可以参考&lt;a</summary>
         
       
