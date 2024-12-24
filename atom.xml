@@ -6,7 +6,7 @@
   <link href="https://blog.econfinny.com/atom.xml" rel="self"/>
   
   <link href="https://blog.econfinny.com/"/>
-  <updated>2024-12-19T05:30:30.361Z</updated>
+  <updated>2024-12-24T02:22:19.053Z</updated>
   <id>https://blog.econfinny.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.econfinny.com/2024/12/19/preference-and-choice/"/>
     <id>https://blog.econfinny.com/2024/12/19/preference-and-choice/</id>
     <published>2024-12-19T03:47:54.000Z</published>
-    <updated>2024-12-19T05:30:30.361Z</updated>
+    <updated>2024-12-24T02:22:19.053Z</updated>
     
     
     <summary type="html">高级微观经济学的第一篇笔记，主要内容为偏好与选择。（更新中）</summary>
@@ -53,11 +53,11 @@
     <category term="文献阅读" scheme="https://blog.econfinny.com/categories/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/"/>
     
     
-    <category term="隐私保护悖论" scheme="https://blog.econfinny.com/tags/%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E6%82%96%E8%AE%BA/"/>
-    
     <category term="数字隐私" scheme="https://blog.econfinny.com/tags/%E6%95%B0%E5%AD%97%E9%9A%90%E7%A7%81/"/>
     
     <category term="数字经济" scheme="https://blog.econfinny.com/tags/%E6%95%B0%E5%AD%97%E7%BB%8F%E6%B5%8E/"/>
+    
+    <category term="隐私保护悖论" scheme="https://blog.econfinny.com/tags/%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E6%82%96%E8%AE%BA/"/>
     
   </entry>
   
@@ -85,7 +85,7 @@
     <link href="https://blog.econfinny.com/2024/12/13/digital-econ-privacy-protection/"/>
     <id>https://blog.econfinny.com/2024/12/13/digital-econ-privacy-protection/</id>
     <published>2024-12-13T13:09:46.000Z</published>
-    <updated>2024-12-17T03:10:58.139Z</updated>
+    <updated>2024-12-24T02:37:14.135Z</updated>
     
     
     <summary type="html">隐私保护是数字化时代中数据安全和用户信任的重要议题，隐私保护技术的研究紧随大数据、云计算和区块链等技术的进步，不断演化以应对日益复杂的数据环境中的隐私风险。</summary>
@@ -95,11 +95,11 @@
     <category term="文献阅读" scheme="https://blog.econfinny.com/categories/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/"/>
     
     
+    <category term="文献阅读" scheme="https://blog.econfinny.com/tags/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/"/>
+    
     <category term="数字隐私" scheme="https://blog.econfinny.com/tags/%E6%95%B0%E5%AD%97%E9%9A%90%E7%A7%81/"/>
     
     <category term="数字经济" scheme="https://blog.econfinny.com/tags/%E6%95%B0%E5%AD%97%E7%BB%8F%E6%B5%8E/"/>
-    
-    <category term="文献阅读" scheme="https://blog.econfinny.com/tags/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/"/>
     
   </entry>
   
@@ -134,7 +134,7 @@
     <link href="https://blog.econfinny.com/2024/11/22/data-clean/"/>
     <id>https://blog.econfinny.com/2024/11/22/data-clean/</id>
     <published>2024-11-22T07:17:47.000Z</published>
-    <updated>2024-12-16T03:31:32.482Z</updated>
+    <updated>2024-12-24T02:37:23.036Z</updated>
     
     
       
@@ -219,7 +219,7 @@
     <link href="https://blog.econfinny.com/2024/11/17/solow-model/"/>
     <id>https://blog.econfinny.com/2024/11/17/solow-model/</id>
     <published>2024-11-17T07:15:41.000Z</published>
-    <updated>2024-12-17T03:10:30.529Z</updated>
+    <updated>2024-12-24T02:38:06.259Z</updated>
     
     
     <summary type="html">这篇文章是本人关于索洛模型（solow model）的笔记总结，其中数理推导的部分我尽我所能写得容易理解，一步一步推导的话草履虫都能看懂。</summary>
