@@ -45,7 +45,7 @@
     <updated>2024-12-19T06:21:22.513Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;草稿&quot;&gt;草稿&lt;/h1&gt;
+    <summary type="html">&lt;h1 id=&quot;草稿&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#草稿&quot;&gt;&lt;/a&gt; 草稿&lt;/h1&gt;
 &lt;p&gt;人们虽然声称非常重视个人隐私，但在实际行为中却往往愿意以轻率或廉价的代价交换或放弃自己的隐私信息，这种行为与态度不一致的现象被称为“隐私悖论”（Privacy Paradox）(Brown,2001; Norberg, 2007)。&lt;/p&gt;</summary>
     
     
@@ -53,11 +53,11 @@
     <category term="文献阅读" scheme="https://blog.econfinny.com/categories/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/"/>
     
     
+    <category term="隐私保护悖论" scheme="https://blog.econfinny.com/tags/%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E6%82%96%E8%AE%BA/"/>
+    
     <category term="数字隐私" scheme="https://blog.econfinny.com/tags/%E6%95%B0%E5%AD%97%E9%9A%90%E7%A7%81/"/>
     
     <category term="数字经济" scheme="https://blog.econfinny.com/tags/%E6%95%B0%E5%AD%97%E7%BB%8F%E6%B5%8E/"/>
-    
-    <category term="隐私保护悖论" scheme="https://blog.econfinny.com/tags/%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E6%82%96%E8%AE%BA/"/>
     
   </entry>
   
@@ -95,11 +95,11 @@
     <category term="文献阅读" scheme="https://blog.econfinny.com/categories/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/"/>
     
     
-    <category term="文献阅读" scheme="https://blog.econfinny.com/tags/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/"/>
-    
     <category term="数字隐私" scheme="https://blog.econfinny.com/tags/%E6%95%B0%E5%AD%97%E9%9A%90%E7%A7%81/"/>
     
     <category term="数字经济" scheme="https://blog.econfinny.com/tags/%E6%95%B0%E5%AD%97%E7%BB%8F%E6%B5%8E/"/>
+    
+    <category term="文献阅读" scheme="https://blog.econfinny.com/tags/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/"/>
     
   </entry>
   
@@ -115,7 +115,8 @@
       
         
         
-    <summary type="html">&lt;h1</summary>
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt; 前言&lt;/h1&gt;
+&lt;p&gt;这篇文章收录一些我排版时常会遇到的问题，以及解决方法。&lt;br</summary>
         
       
     
@@ -140,7 +141,7 @@
       
         
         
-    <summary type="html">&lt;h2</summary>
+    <summary type="html">&lt;h2 id=&quot;开始之前&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#开始之前&quot;&gt;&lt;/a&gt;</summary>
         
       
     
@@ -169,9 +170,8 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;第一章-绪论&quot;&gt;第一章 绪论&lt;/h2&gt;
-&lt;h3 id=&quot;一-引言&quot;&gt;一、引言&lt;/h3&gt;
-&lt;h4 id=&quot;1-因果关系的研究方向&quot;&gt;1.</summary>
+    <summary type="html">&lt;h2 id=&quot;第一章-绪论&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#第一章-绪论&quot;&gt;&lt;/a&gt; 第一章 绪论&lt;/h2&gt;
+&lt;h3 id=&quot;一-引言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#一-引言&quot;&gt;&lt;/a&gt;</summary>
         
       
     
@@ -200,7 +200,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;行内公式渲染问题&quot;&gt;行内公式渲染问题&lt;/h1&gt;
+    <summary type="html">&lt;h1 id=&quot;行内公式渲染问题&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#行内公式渲染问题&quot;&gt;&lt;/a&gt; 行内公式渲染问题&lt;/h1&gt;
 &lt;p&gt;可以参考&lt;a</summary>
         
       
