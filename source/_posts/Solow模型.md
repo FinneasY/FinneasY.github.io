@@ -1,7 +1,10 @@
 ---
 title: Solow模型
 date: 2024-11-17 15:15:41
-tags: [宏观经济, 笔记, 经济增长]
+tags: 
+  - 宏观经济
+  - 笔记
+  - 经济增长
 categories: 宏观经济学
 copyright_author: Finneas
 mathjax: true
@@ -187,12 +190,12 @@ $$
   $$
   - 单位有效劳动的平均消费=单位有效劳动的平均收入-单位有效劳动的实际投资（平衡增长路径下等于持平投资）
   - 消费达到最大时，对应的 $k^*$ 称为**资本存量的黄金律水平**。
-  - 由于$k$是$n、g、\delta、s$共同确定的，$k^*$可以写成$k^*(s,n,g,\delta)$
+  - 由于$k$是$n$、$g$、$\delta$、$s$共同确定的，$k^*$可以写成$k^*(s,n,g,\delta)$
   $$
   \frac{\partial c^*}{\partial s} =[f'(k^*)-(n+g+\delta) ]\frac{\partial k^*}{\partial s}
   $$
     - 已知$s$上升时，$k^*$会跟着上升，所以$\frac{\partial k^*}{\partial s}>0$
-    - 所以储蓄对消费的影响，即$\frac{\partial c^*}{\partial s}$的大小仅仅只需要看$f'(k^*)与(n+g+\delta)$的关系
+    - 所以储蓄对消费的影响，即$\frac{\partial c^*}{\partial s}$ 的大小仅仅只需要看 $f'(k^*)$ 与 $(n+g+\delta)$ 的关系
       - 当$f'(k^*)>(n+g+\delta)$，$f(k^*)$的斜率更陡峭，$k^*$点位于低位，储蓄率的增加会使得单位有效劳动的平均消费上升
       ![1](/img/solow模型/1.png)
       - 当$f'(k^*)<(n+g+\delta)$时，$s\uparrow \to c^*\downarrow$
