@@ -9,7 +9,7 @@ hexo n post name
 
 #推送到github
 git add .
-git commit -m "1.9更新简历"
+git commit -m "2.4 debug"
 git push origin main
 
 git push origin main --force
