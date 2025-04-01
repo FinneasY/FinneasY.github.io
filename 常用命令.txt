@@ -10,7 +10,7 @@ hexo n post name
 
 #推送到github
 git add .
-git commit -m "4.1更新偏好与选择"
+git commit -m "4.1更新搜索"
 git push origin main
 
 git push origin main --force
