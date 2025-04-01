@@ -2,6 +2,7 @@
 
 #清除缓存并且预览
 hexo clean && hexo g && hexo d && hexo algolia && hexo s
+hexo clean ; hexo g ; hexo d ; hexo algolia ; hexo s
 npm run clean && npm run build
 
 #发文章
@@ -9,7 +10,7 @@ hexo n post name
 
 #推送到github
 git add .
-git commit -m "2.4 debug"
+git commit -m "4.1更新偏好与选择"
 git push origin main
 
 git push origin main --force
