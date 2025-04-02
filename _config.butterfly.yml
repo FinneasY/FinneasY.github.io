@@ -606,6 +606,7 @@ waline:
       - https://github.elemecdn.com/@waline/emojis@1.1.0/weibo
     reaction:
       - https://github.elemecdn.com/@waline/emojis@1.2.0/bilibili/
+    search: false
 # Utterances
 # https://utteranc.es/
 utterances:
