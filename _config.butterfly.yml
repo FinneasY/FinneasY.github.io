@@ -27,7 +27,7 @@ menu:
   # movies: /movies/ || fas fa-video
   说说: /shuoshuo || fas fa-comments
   友链: /link/ || fas fa-link
-  后台: https://finnywaline.netlify.app/.netlify/functions/comment/ui/profile || fa fa-cog
+  后台: https://waline.econfinny.com/.netlify/functions/comment/ui || fa fa-cog
   开往: https://www.travellings.cn/go.html || fas fa-train-subway
   关于: /about/ || fas fa-heart
 
