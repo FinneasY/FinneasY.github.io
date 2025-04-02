@@ -10,7 +10,7 @@ hexo n post name
 
 #推送到github
 git add .
-git commit -m "4.1更新评论"
+git commit -m "4.2更新评论"
 git push origin main
 
 git push origin main --force
