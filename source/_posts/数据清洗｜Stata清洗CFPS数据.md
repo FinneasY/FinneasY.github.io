@@ -15,6 +15,11 @@ urlname: data-clean
 - 其次是拆分需求：
 	- 1. 面板数据需要由**截面数据**来合并；
 	- 2. 变量需要的保留与否暂不清晰，但根据已读文献，有初步方向。
+  - 3. 确定需要使用的数据库，每个年份的数据集有如下几个：
+		- famconf（家庭成员关系数据库）
+    - famecon（家庭经济库）
+    - person（个人库）
+    - childproxy（少儿家长代答库）
 	
 ## 开始清洗
 ### 制定根目录
@@ -25,17 +30,19 @@ clear all
 clear matrix
 set more off
 
-global root         = "/Users/finneas/Desktop/CFPS数据库中国家庭追踪调查数据库"
-global cfps2020     = "$root/CFPS2020"
-global cfps2018     = "$root/CFPS2018"
-global cfps2016     = "$root/CFPS2016"
-global cfps2014     = "$root/CFPS2014"
-global cfps2012     = "$root/CFPS2012"
-global dofiles      = "$root/Result_data/Dofiles"
-global logfiles     = "$root/Result_data/Logfiles"
-global temp_data    = "$root/Result_data/Temp_data"
-global working_data = "$root/Result_data/Working_data"
-*log using "$logfiles/cfpsclean.log", replace
+global root         = "F:\DocFiles\Working Area\mental health"
+global origin_data = "$root\Origin_data"
+global cfps2020     = "$origin_data\CFPS2022"
+global cfps2020     = "$origin_data\CFPS2020"
+global cfps2018     = "$origin_data\CFPS2018"
+global cfps2016     = "$origin_data\CFPS2016"
+global cfps2014     = "$origin_data\CFPS2014"
+global cfps2012     = "$origin_data\CFPS2012"
+global dofiles      = "$root\Working_Files\Do_Files"
+global logfiles     = "$root\Working_Files\Log_Files"
+global datafiles = "$root\Working_Files\Data_Files"
+global temp_data = "$root\Working_Files\Temp_Files"
+log using "$logfiles\mental_health_clean.log", replace
 
 ```
 
