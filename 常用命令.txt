@@ -10,7 +10,7 @@ hexo n post name
 
 #推送到github
 git add .
-git commit -m "4.12最新评论"
+git commit -m "4.26更新宏观第二章"
 git push origin main
 
 git push origin main --force
@@ -20,6 +20,9 @@ export https_proxy=http://127.0.0.1:33210 http_proxy=http://127.0.0.1:33210 all_
 
 #更新本地的文件
 git pull origin main
+
+#可能用到
+git stash ##保存上次修改，用完这个再git pull
 
 
 #拉取上次github的文件
