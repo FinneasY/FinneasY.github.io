@@ -6,7 +6,7 @@
   <link href="https://blog.econfinny.com/atom.xml" rel="self"/>
   
   <link href="https://blog.econfinny.com/"/>
-  <updated>2025-02-06T08:53:52.389Z</updated>
+  <updated>2025-04-26T13:49:43.062Z</updated>
   <id>https://blog.econfinny.com/</id>
   
   <author>
@@ -17,11 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>无期限模型与世代交叠模型</title>
+    <link href="https://blog.econfinny.com/2025/04/25/RCK-model_OLG-model/"/>
+    <id>https://blog.econfinny.com/2025/04/25/RCK-model_OLG-model/</id>
+    <published>2025-04-25T10:33:24.000Z</published>
+    <updated>2025-04-26T13:49:43.062Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="宏观经济学" scheme="https://blog.econfinny.com/categories/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
+    
+    
+    <category term="笔记" scheme="https://blog.econfinny.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="宏观经济学" scheme="https://blog.econfinny.com/tags/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
+    
+    <category term="Ramsey-Cass-Koopmans模型" scheme="https://blog.econfinny.com/tags/Ramsey-Cass-Koopmans%E6%A8%A1%E5%9E%8B/"/>
+    
+    <category term="OLG模型" scheme="https://blog.econfinny.com/tags/OLG%E6%A8%A1%E5%9E%8B/"/>
+    
+  </entry>
+  
+  <entry>
     <title>产业政策文献阅读</title>
     <link href="https://blog.econfinny.com/2025/02/04/industry-policy-literature-reading/"/>
     <id>https://blog.econfinny.com/2025/02/04/industry-policy-literature-reading/</id>
     <published>2025-02-04T06:10:51.000Z</published>
-    <updated>2025-02-06T08:53:52.389Z</updated>
+    <updated>2025-04-25T10:31:47.799Z</updated>
     
     
     <summary type="html">产业政策文献阅读</summary>
@@ -59,30 +90,6 @@
   </entry>
   
   <entry>
-    <title>隐私悖论文献阅读记录</title>
-    <link href="https://blog.econfinny.com/2024/12/15/privacy-paradox/"/>
-    <id>https://blog.econfinny.com/2024/12/15/privacy-paradox/</id>
-    <published>2024-12-15T08:52:39.000Z</published>
-    <updated>2024-12-19T06:21:22.513Z</updated>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;草稿&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#草稿&quot;&gt;&lt;/a&gt; 草稿&lt;/h1&gt;
-&lt;p&gt;人们虽然声称非常重视个人隐私，但在实际行为中却往往愿意以轻率或廉价的代价交换或放弃自己的隐私信息，这种行为与态度不一致的现象被称为“隐私悖论”（Privacy Paradox）(Brown,2001; Norberg, 2007)。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="文献阅读" scheme="https://blog.econfinny.com/categories/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/"/>
-    
-    
-    <category term="数字隐私" scheme="https://blog.econfinny.com/tags/%E6%95%B0%E5%AD%97%E9%9A%90%E7%A7%81/"/>
-    
-    <category term="数字经济" scheme="https://blog.econfinny.com/tags/%E6%95%B0%E5%AD%97%E7%BB%8F%E6%B5%8E/"/>
-    
-    <category term="隐私保护悖论" scheme="https://blog.econfinny.com/tags/%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E6%82%96%E8%AE%BA/"/>
-    
-  </entry>
-  
-  <entry>
     <title>butterfly主题本地说说半自动更新</title>
     <link href="https://blog.econfinny.com/2024/12/15/20241215/"/>
     <id>https://blog.econfinny.com/2024/12/15/20241215/</id>
@@ -98,29 +105,6 @@
     
     
     <category term="建站" scheme="https://blog.econfinny.com/tags/%E5%BB%BA%E7%AB%99/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数字隐私保护技术文献阅读记录</title>
-    <link href="https://blog.econfinny.com/2024/12/13/digital-econ-privacy-protection/"/>
-    <id>https://blog.econfinny.com/2024/12/13/digital-econ-privacy-protection/</id>
-    <published>2024-12-13T13:09:46.000Z</published>
-    <updated>2024-12-24T02:37:14.135Z</updated>
-    
-    
-    <summary type="html">隐私保护是数字化时代中数据安全和用户信任的重要议题，隐私保护技术的研究紧随大数据、云计算和区块链等技术的进步，不断演化以应对日益复杂的数据环境中的隐私风险。</summary>
-    
-    
-    
-    <category term="文献阅读" scheme="https://blog.econfinny.com/categories/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/"/>
-    
-    
-    <category term="文献阅读" scheme="https://blog.econfinny.com/tags/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/"/>
-    
-    <category term="数字隐私" scheme="https://blog.econfinny.com/tags/%E6%95%B0%E5%AD%97%E9%9A%90%E7%A7%81/"/>
-    
-    <category term="数字经济" scheme="https://blog.econfinny.com/tags/%E6%95%B0%E5%AD%97%E7%BB%8F%E6%B5%8E/"/>
     
   </entry>
   
@@ -155,7 +139,7 @@
     <link href="https://blog.econfinny.com/2024/11/22/data-clean/"/>
     <id>https://blog.econfinny.com/2024/11/22/data-clean/</id>
     <published>2024-11-22T07:17:47.000Z</published>
-    <updated>2024-12-24T02:37:23.036Z</updated>
+    <updated>2025-04-25T10:31:30.490Z</updated>
     
     
       
