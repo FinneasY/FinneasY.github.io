@@ -10,7 +10,7 @@ hexo n post name
 
 #推送到github
 git add .
-git commit -m "4.26更新宏观第二章"
+git commit -m "4.27更新我的个人简历"
 git push origin main
 
 git push origin main --force
