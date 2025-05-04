@@ -10,7 +10,7 @@ hexo n post name
 
 #推送到github
 git add .
-git commit -m "5.2更新经历"
+git commit -m "5.4更新DCK模型"
 git push origin main
 
 git push origin main --force
