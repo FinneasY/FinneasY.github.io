@@ -175,6 +175,10 @@ feed:
   autodiscovery: true #自动发现提要
   template: #给rss文章配置模板
 
+skip_render:
+  - '*.py'
+  - '*.txt'
+
 
 hexo_indexnow:
   count: latest # 数字或者 "latest"(=1)
