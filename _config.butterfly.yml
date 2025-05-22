@@ -1188,3 +1188,12 @@ artitalk:
   front_matter:
 
 rss: /atom.xml
+
+hexo_indexnow:
+  count: latest # 数字或者 "latest"(=1)
+  txt_name: 74cffe11e26448bbbdac5377db93c63c.txt # 链接文件名
+  apikey: 74cffe11e26448bbbdac5377db93c63c # 你的 apikey
+  server: bing # indexnow 服务器，可选值有:bing、yandex、indexnow
+
+deploy:
+  - type: indexnow_url_submitter
