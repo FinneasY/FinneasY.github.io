@@ -2,6 +2,7 @@
 
 #清除缓存并且预览
 hexo clean && hexo g && hexo d && hexo algolia && hexo s
+hexo clean ; hexo g ; hexo d ; hexo s
 hexo clean ; hexo g ; hexo d ; hexo algolia ; hexo s
 npm run clean && npm run build
 
@@ -10,7 +11,7 @@ hexo n post name
 
 #推送到github
 git add .
-git commit -m "5.22 更新bing网站文件3"
+git commit -m "5.22 更新bing网站文件5"
 git push origin main
 
 git push origin main --force
