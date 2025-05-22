@@ -10,7 +10,7 @@ hexo n post name
 
 #推送到github
 git add .
-git commit -m "5.21 更新RCK模型"
+git commit -m "5.22 更新bing网站文件"
 git push origin main
 
 git push origin main --force
