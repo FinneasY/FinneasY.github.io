@@ -233,7 +233,7 @@ $$
 $$
 - 将式（3）带入（1）得：
 $$
-\frac{\partial y^*}{\partial s}=\frac{f'(k^*)f(k^*)}4{(n+g+\delta)-sf'(k^*)}
+\frac{\partial y^*}{\partial s}=\frac{f'(k^*)f(k^*)}{(n+g+\delta)-sf'(k^*)}
 $$
 - 两边乘$\frac{s}{y^*}$化为弹性形式：
 $$
