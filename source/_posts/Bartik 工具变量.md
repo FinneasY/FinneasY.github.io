@@ -10,7 +10,7 @@ description: Bartik 工具变量的介绍与应用方法
 urlname: bartik-iv
 ---
 
-# 引言
+# 一、引言
 
 我们从近期的一篇《经济学（季刊）》的文章出发，这篇文章的标题是[《破坏金融管理秩序犯罪加剧了企业融资约束》](https://kns.cnki.net/kcms2/article/abstract?v=3ruWTMGvziXnAyzor46mlOHGq1GIfcvkQuVEqrIyCiRjBGtiwZJNVH3ixVTer_7O-VKCKJV4FCGeExe7BaWg76xxnTz0eYZhdzxVimG8jvDT-iN7DJS53TJQWpplpJxOJDR2nadxPYKvbRYN1UiHNiXGwAwQ_OnVSG_w1X-4PKHSnyES0eZ6Lg==&uniplatform=NZKPT&language=CHS)。
 
@@ -25,7 +25,7 @@ urlname: bartik-iv
 >
 > 简单理解就是：研究一个城市的**案件数/总人口**或者**犯罪人数/总人口**对**融资约束01变量**的影响。
 
-# 工具变量的选择
+# 二、工具变量的选择
 
 这篇文章采取的工具变量放在了[附录](https://bar.cnki.net/bar/download/order?id=jBGETXBNdPImvx70aLAuJAsaAt7TmydYHrxrFODAqeByys%2FOcdylOlFnIWR%2BRp0S4mmbKzWe%2BKzTWpx4VFZWgshcb6vnoJMPY3Z7YQpEIFkerYT3sDfnmygLSPLVuEs%2BImSDftqGEriZkcPq1StrQFu6IBkY1fStelgwC%2FBXi5ZDdbWWjmfWH9gsKlr02LyrZ9wlML0o1FFxDwYSEr5R%2FHHHFjp4FaxJXvVq4EPb%2Buw%3D)当中。
 
@@ -33,7 +33,7 @@ urlname: bartik-iv
 - 第一，使用移动份额法构建**Bartik工具变量**；
 - 第二，以虚拟货币关注度作为破坏金融管理秩序犯罪的工具变量。
 
-在假设这篇文章的读者已经了解一般工具变量选择的两个原则（相关性、外生性）的基础上，本文将着重介绍Bartik工具变量。
+假设我的读者已经了解一般工具变量选择，在理解相关性和外生性两个假设的基础上，本文将着重介绍Bartik工具变量。
 
 # Bartik 工具变量介绍
 
@@ -70,10 +70,10 @@ $$
 > - **Shift移动**就是研究对象更高维度随时间变化的组间均值。
 
 
-## Bartik工具变量的相关性
+## 1. Bartik工具变量的相关性
 Bartik工具变量的本质是利用个体初始的份额构成和总体的增长率来模拟出历年的估计值，得到的估计值与实际值之间高度相关，但与其他的残差项并不相关。
 
-## Bartik工具变量的外生性
+## 2. Bartik工具变量的外生性
 
 Bartik工具变量估计以份额的外生性为前提。通常来说，一项研究中的核心解释变量之所以能够使用计量模型进行估计，是因为我们内含了**核心解释变量**满足计量模型的外生性假设，也即份额本身在研究中对被解释变量而言就是外生的，从而Bartik工具变量也满足外生性假设。
 
@@ -82,7 +82,7 @@ Bartik工具变量估计以份额的外生性为前提。通常来说，一项�
 >
 > 在实际使用上，以季刊这篇文章为例，其移动Shift的均值构建应该剔除掉样本自身的破坏金融管理秩序犯罪率，只保留其他城市的增长率。
 
-# Bartik 工具变量的代码
+# 四、Bartik 工具变量的代码
 
 以季刊那篇文章为例，下面的代码展示了如何在Stata中构建Bartik工具变量：
 

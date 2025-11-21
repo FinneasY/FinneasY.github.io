@@ -11,7 +11,7 @@ hexo n post name
 
 #推送到github
 git add .
-git commit -m "11.21 bartik iv"
+git commit -m "11.21 bartik iv2"
 git push origin main
 
 git push origin main --force
