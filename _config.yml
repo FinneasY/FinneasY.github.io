@@ -92,6 +92,7 @@ pagination_dir: page
 ## include:/exclude: options only apply to the 'source/' folder
 include:
 exclude:
+  - 'pre_posts/GPT对话笔记/*.md'
 ignore:
 
 # Extensions
