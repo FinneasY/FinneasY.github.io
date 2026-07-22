@@ -7,8 +7,8 @@ case theme.math.use
     if (theme.math.per_page && (is_post() || is_page())) || page.katex
       include ./katex.pug
 
-if theme.mermaid.enable
+if theme.mermaid.enable && page.mermaid
   include ./mermaid.pug
 
-if theme.chartjs.enable
+if theme.chartjs.enable && page.chartjs
   include ./chartjs.pug

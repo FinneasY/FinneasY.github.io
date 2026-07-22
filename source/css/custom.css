@@ -18,3 +18,26 @@
     background-color: var(--btn-hover-color) !important;
 }
 /*artitalk说说暗黑模式背景色和字体色 end*/
+
+/* Chart.js 经济学图表：由稳定宽高比控制尺寸，避免响应式高度反馈循环 */
+#article-container .chartjs-container {
+    width: 100%;
+    max-width: 100%;
+}
+
+#article-container .chartjs-container .chartjs-wrap {
+    position: relative;
+    width: 100% !important;
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
+    max-height: 420px;
+    min-width: 0;
+    overflow: hidden;
+    flex: none;
+}
+
+#article-container .chartjs-container .chartjs-wrap canvas {
+    display: block !important;
+    max-width: 100%;
+    max-height: 100%;
+}

@@ -11,6 +11,7 @@ tags:
 description: 从误差项协方差矩阵出发，理解经典、异方差稳健与聚类稳健标准误，并讨论公司金融研究究竟应该在企业还是行业层面聚类。
 urlname: standard-errors-robust-and-clustered
 mathjax: true
+mermaid: true
 copyright_author: Finneas
 ---
 
@@ -244,6 +245,19 @@ $$
 
 这正是二者最本质的差别：Robust 的 $\Omega$ 是对角矩阵，Cluster 的 $\Omega$ 是块对角矩阵。
 
+### 图：不同标准误对误差协方差结构的假设
+
+{% mermaid %}
+flowchart LR
+    O["目标：估计 Var(β̂)"] --> C["Classical SE<br/>同方差；观测间不相关"]
+    O --> R["Robust SE<br/>允许异方差；观测间不相关"]
+    O --> F["Firm Cluster<br/>企业内任意异方差与相关；企业间独立"]
+    O --> I["Industry Cluster<br/>行业内跨企业、跨期相关；行业间独立"]
+    O --> T["双向聚类<br/>允许两个维度内相关；交叉部分避免重复计算"]
+{% endmermaid %}
+
+**图注：** 这是一张假设结构图，不是“稳健程度”或标准误大小的排序。每条分支都在估计同一个 $Var(\hat\beta)$，区别只是对 $\Omega$ 中哪些方差与协方差元素施加零约束。
+
 严格地说，聚类稳健标准误不仅允许组内相关，也同时允许异方差。因此，“Robust 解决异方差，Cluster 解决相关性”是一种便于记忆但不完整的说法。更准确的表述是：普通 Robust 只放松方差相等假设；Cluster 在此基础上进一步放松 cluster 内协方差为零的假设。
 
 # 六、企业聚类：为什么它会成为 AI 的默认答案？
@@ -302,6 +316,29 @@ $$
 但如果再严谨一步，聚类还与抽样设计和处理变量的赋值机制有关。[Abadie、Athey、Imbens 与 Wooldridge（2023）](https://www.gsb.stanford.edu/faculty-research/publications/when-should-you-adjust-standard-errors-clustering)强调，聚类不只是看到残差相关之后的机械修补，也可能来自两阶段整群抽样，或者处理状态在 cluster 内相关的实验与准实验设计。
 
 因此，我现在更愿意按下面的顺序思考。
+
+### 图：聚类层级选择流程
+
+{% mermaid %}
+flowchart TD
+    A["从识别设计与误差相关来源出发"] --> B{"处理变量在哪个层级变化？"}
+    B --> C["优先考虑赋值或抽样层级"]
+    C --> D{"共同冲击主要来自哪里？"}
+    D --> E["企业持续冲击：评估 Firm Cluster"]
+    D --> F["行业、地区或政策单元冲击：评估相应层级"]
+    D --> G["年份共同冲击：评估时间维度"]
+    E --> H{"是否存在多个相关维度？"}
+    F --> H
+    G --> H
+    H -->|是| I["评估双向或多维聚类"]
+    H -->|否| J["保留单一、经济上有依据的层级"]
+    I --> K{"各维度 cluster 数量是否足够？"}
+    J --> K
+    K -->|足够| L["使用相应的 cluster-robust 推断"]
+    K -->|较少| M["采用小样本修正、wild cluster bootstrap<br/>或重新评估识别层级"]
+{% endmermaid %}
+
+**图注：** 该流程用于组织判断，而不是自动选项。最终选择还应结合抽样方式、政策赋值、制度背景和残差相关机制；cluster 数量不足时，不能仅靠增加组内观测来补救。
 
 ## 1. 处理变量在哪个层级变化？
 
@@ -364,4 +401,3 @@ $$
 - Petersen, M. A. (2009). [Estimating Standard Errors in Finance Panel Data Sets: Comparing Approaches](https://www.kellogg.northwestern.edu/faculty/petersen/htm/papers/standarderror.pdf). *Review of Financial Studies*, 22(1), 435–480.
 - Cameron, A. C., & Miller, D. L. (2015). [A Practitioner’s Guide to Cluster-Robust Inference](https://escholarship.org/uc/item/1jq5d0pq). *Journal of Human Resources*, 50(2), 317–372.
 - Abadie, A., Athey, S., Imbens, G. W., & Wooldridge, J. M. (2023). [When Should You Adjust Standard Errors for Clustering?](https://www.gsb.stanford.edu/faculty-research/publications/when-should-you-adjust-standard-errors-clustering). *Quarterly Journal of Economics*, 138(1), 1–35.
-

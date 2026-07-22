@@ -8,6 +8,7 @@ tags:
 categories: 宏观经济学
 copyright_author: Finneas
 mathjax: true
+chartjs: true
 urlname: solow-model
 description: 这篇文章是本人关于索洛模型（solow model）的笔记总结，其中数理推导的部分我尽我所能写得容易理解，一步一步推导的话草履虫都能看懂。
 ---
@@ -125,6 +126,81 @@ $$
 - **相图分析**：
   - 当 $sf(k) > (n+g+\delta)k$，即 $\dot{k} > 0$，$k$ 上升。
   - 当 $sf(k) < (n+g+\delta)k$，即 $\dot{k} < 0$，$k$ 下降。
+
+### 图：储蓄率与 Solow 稳态
+
+{% chartjs 100,, solow-steady-state %}
+<!-- chart -->
+{
+  "type": "line",
+  "data": {
+    "datasets": [
+      {
+        "label": "产出 f(k) = k^0.5",
+        "data": [{"x": 0, "y": 0}, {"x": 1, "y": 1}, {"x": 2, "y": 1.414}, {"x": 3, "y": 1.732}, {"x": 4, "y": 2}, {"x": 5, "y": 2.236}, {"x": 6, "y": 2.449}, {"x": 7, "y": 2.646}, {"x": 8, "y": 2.828}, {"x": 9, "y": 3}, {"x": 10, "y": 3.162}, {"x": 11, "y": 3.317}, {"x": 12, "y": 3.464}, {"x": 13, "y": 3.606}, {"x": 14, "y": 3.742}, {"x": 15, "y": 3.873}, {"x": 16, "y": 4}],
+        "borderColor": "#7e57c2",
+        "backgroundColor": "rgba(126, 87, 194, 0.12)",
+        "borderWidth": 2,
+        "pointRadius": 0,
+        "tension": 0.25
+      },
+      {
+        "label": "投资 s₁f(k)，s₁ = 0.20",
+        "data": [{"x": 0, "y": 0}, {"x": 1, "y": 0.2}, {"x": 2, "y": 0.283}, {"x": 3, "y": 0.346}, {"x": 4, "y": 0.4}, {"x": 5, "y": 0.447}, {"x": 6, "y": 0.49}, {"x": 7, "y": 0.529}, {"x": 8, "y": 0.566}, {"x": 9, "y": 0.6}, {"x": 10, "y": 0.632}, {"x": 11, "y": 0.663}, {"x": 12, "y": 0.693}, {"x": 13, "y": 0.721}, {"x": 14, "y": 0.748}, {"x": 15, "y": 0.775}, {"x": 16, "y": 0.8}],
+        "borderColor": "#2196f3",
+        "borderWidth": 3,
+        "pointRadius": 0,
+        "tension": 0.25
+      },
+      {
+        "label": "投资 s₂f(k)，s₂ = 0.30",
+        "data": [{"x": 0, "y": 0}, {"x": 1, "y": 0.3}, {"x": 2, "y": 0.424}, {"x": 3, "y": 0.52}, {"x": 4, "y": 0.6}, {"x": 5, "y": 0.671}, {"x": 6, "y": 0.735}, {"x": 7, "y": 0.794}, {"x": 8, "y": 0.849}, {"x": 9, "y": 0.9}, {"x": 10, "y": 0.949}, {"x": 11, "y": 0.995}, {"x": 12, "y": 1.039}, {"x": 13, "y": 1.082}, {"x": 14, "y": 1.122}, {"x": 15, "y": 1.162}, {"x": 16, "y": 1.2}],
+        "borderColor": "#ff9800",
+        "borderWidth": 3,
+        "pointRadius": 0,
+        "tension": 0.25
+      },
+      {
+        "label": "持平投资 (n + g + δ)k = 0.10k",
+        "data": [{"x": 0, "y": 0}, {"x": 1, "y": 0.1}, {"x": 2, "y": 0.2}, {"x": 3, "y": 0.3}, {"x": 4, "y": 0.4}, {"x": 5, "y": 0.5}, {"x": 6, "y": 0.6}, {"x": 7, "y": 0.7}, {"x": 8, "y": 0.8}, {"x": 9, "y": 0.9}, {"x": 10, "y": 1}, {"x": 11, "y": 1.1}, {"x": 12, "y": 1.2}, {"x": 13, "y": 1.3}, {"x": 14, "y": 1.4}, {"x": 15, "y": 1.5}, {"x": 16, "y": 1.6}],
+        "borderColor": "#e53935",
+        "borderWidth": 2,
+        "pointRadius": 0
+      },
+      {
+        "type": "scatter",
+        "label": "稳态 k₁* = 4，k₂* = 9",
+        "data": [{"x": 4, "y": 0.4}, {"x": 9, "y": 0.9}],
+        "backgroundColor": "#00a86b",
+        "borderColor": "#ffffff",
+        "borderWidth": 2,
+        "pointRadius": 6
+      }
+    ]
+  },
+  "options": {
+    "responsive": true,
+    "maintainAspectRatio": true,
+    "aspectRatio": 1.777777778,
+    "interaction": {"mode": "nearest", "intersect": false},
+    "plugins": {
+      "title": {"display": true, "text": "Solow 模型：储蓄率提高与稳态资本"},
+      "legend": {"position": "top"}
+    },
+    "scales": {
+      "x": {"type": "linear", "min": 0, "max": 16, "ticks": {"stepSize": 2}, "title": {"display": true, "text": "人均有效资本 k"}},
+      "y": {"min": 0, "max": 4.2, "title": {"display": true, "text": "产出、投资或持平投资"}}
+    }
+  }
+}
+<!-- endchart -->
+<!-- desc -->
+**图注：** 教学示意，不代表真实经济数据。采用文章中的 $\dot{k}=sf(k)-(n+g+\delta)k$，并令 Cobb–Douglas 密集型生产函数 $f(k)=k^{0.5}$、$n+g+\delta=0.10$。储蓄率由 $s_1=0.20$ 提高到 $s_2=0.30$ 时，投资曲线上移，稳态由 $k_1^*=4$ 移至 $k_2^*=9$。
+<!-- enddesc -->
+{% endchartjs %}
+
+图中的交点满足 $sf(k^*)=(n+g+\delta)k^*$。它把上面的动态方程直接画了出来：交点左侧实际投资高于持平投资，资本深化；交点右侧则相反。储蓄率提高改变稳态水平，但没有改变由技术进步率决定的长期人均产出增长率。
+
 ![相图分析](/img/solow模型/xtfx.png)
   - $k$的相图
   ![k的相图](/img/solow模型/kxt.png)

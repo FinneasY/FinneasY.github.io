@@ -10,4 +10,3 @@ Disallow: /*.css
 Disallow: /*.js
 
 Sitemap: https://blog.econfinny.com/sitemap.xml
-Sitemap: https://blog.econfinny.com/baidusitemap.xml

@@ -175,6 +175,8 @@ subtitle:
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
+    - '经济学、数据与生活的学习笔记'
+    - 'When you know you know, you know ~'
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
@@ -212,7 +214,7 @@ toc:
 post_copyright:
   enable: true
   decode: false
-  author_href: www.econfinny.com
+  author_href: https://www.econfinny.com/
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
@@ -534,21 +536,21 @@ share:
 # Comments System
 # --------------------------------------
 
-comments: 
+comments:
   # Up to two comments system, the first will be shown as default
   # Leave it empty if you don't need comments
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   # Format of two comments system : Disqus,Waline
-  use: waline, TWikoo
+  use: Waline
   # Display the comment name next to the button
   text: true
   # Lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
-  lazyload: false
+  lazyload: true
   # Display comment count in post's top_img
-  count: true
+  count: false
   # Display comment count in Home Page
-  card_post_count: true
+  card_post_count: false
 
 # Disqus
 # https://disqus.com/
@@ -629,7 +631,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://twikoofinny.netlify.app/.netlify/functions/twikoo
+  envId:
   region:
   # Use Twikoo visitor count as the page view count
   visitor: false
@@ -934,7 +936,7 @@ abcjs:
 # Mermaid
 # https://github.com/mermaid-js/mermaid
 mermaid:
-  enable: false
+  enable: true
   # Write Mermaid diagrams using code blocks
   code_write: false
   # built-in themes: default / forest / dark / neutral
@@ -945,7 +947,7 @@ mermaid:
 # chartjs
 # see https://www.chartjs.org/docs/latest/
 chartjs:
-  enable: false
+  enable: true
   # Do not modify unless you understand how they work.
   # The default settings are only used when the MD syntax is not specified.
   # General font color for the chart
@@ -996,9 +998,9 @@ aplayerInject:
 # position: top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
 snackbar:
   enable: true
-  position: right
+  position: bottom-right
   # The background color of Toast Notification in light mode and dark mode
-  bg_light: '##696E51'
+  bg_light: '#696E51'
   bg_dark: '#1f1f1f'
 
 # Instant.page
@@ -1188,4 +1190,3 @@ artitalk:
   front_matter:
 
 rss: /atom.xml
-
